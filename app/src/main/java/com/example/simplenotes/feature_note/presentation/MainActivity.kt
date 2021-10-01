@@ -1,4 +1,4 @@
-package com.example.simplenotes
+package com.example.simplenotes.feature_note.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

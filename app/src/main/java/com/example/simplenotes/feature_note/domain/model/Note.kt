@@ -18,3 +18,4 @@ data class Note(
         val noteColors = listOf(LightBlue, LightOrange, Pink)
     }
 }
+

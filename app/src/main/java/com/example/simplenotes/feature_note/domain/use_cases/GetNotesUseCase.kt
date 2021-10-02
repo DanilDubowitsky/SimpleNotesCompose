@@ -6,8 +6,9 @@ import com.example.simplenotes.feature_note.domain.util.NoteOrder
 import com.example.simplenotes.feature_note.domain.util.OrderType
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
+import javax.inject.Inject
 
-class GetNotesUseCase(
+class GetNotesUseCase @Inject constructor(
     private val repository: NoteRepository
 ) {
 
